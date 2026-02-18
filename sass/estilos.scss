@@ -1,0 +1,15 @@
+@use 'variables';
+@use 'cardProducto';
+@use 'header';
+@use 'generales';
+@use 'main';
+@use 'footer';
+
+#contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

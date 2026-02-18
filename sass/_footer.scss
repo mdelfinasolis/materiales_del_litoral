@@ -1,0 +1,58 @@
+@use 'variables';
+
+.footer {
+    background-color: variables.$fondo-hf;
+    padding: 40px 0 20px 0;
+    margin-top: 60px;
+
+    .container-footer {
+        width: 100%;
+        padding: 0 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .item-contacto {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: white;
+
+            i {
+                color: variables.$naranja;
+                font-size: 1.3rem;
+                width: 25px;
+                text-align: center;
+            }
+
+            span {
+                font-size: 1rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .footer-copy {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #888;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer .container-footer {
+        padding: 0 20px;
+    }
+    
+    .footer .item-contacto {
+        font-size: 0.9rem;
+    }
+}

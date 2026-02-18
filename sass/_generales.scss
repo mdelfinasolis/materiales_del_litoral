@@ -1,0 +1,15 @@
+@use 'variables';
+
+/* Reset Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: variables.$fuente;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: variables.$fondo;
+}
