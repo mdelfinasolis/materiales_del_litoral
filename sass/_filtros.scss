@@ -1,0 +1,51 @@
+@use 'variables';
+
+.botones-filtro-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 40px 40px 40px;
+    justify-content: center;
+
+    .btn-filtro {
+        background: variables.$blanco;
+        color: variables.$naranja;
+        border: 2px solid variables.$naranja;
+        padding: 10px 24px;
+        border-radius: 30px;
+        font-family: variables.$fuente;
+        font-weight: 700;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+        &:hover, &.active {
+            background: variables.$naranja;
+            color: variables.$blanco;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(variables.$naranja, 0.3);
+        }
+
+        &:active {
+            transform: translateY(0);
+        }
+    }
+}
+
+.tarjeta-producto {
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

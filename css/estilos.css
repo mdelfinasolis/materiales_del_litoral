@@ -334,6 +334,52 @@ body {
     font-size: 0.9rem;
   }
 }
+.botones-filtro-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 40px 40px 40px;
+  justify-content: center;
+}
+.botones-filtro-container .btn-filtro {
+  background: white;
+  color: #F37021;
+  border: 2px solid #F37021;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.botones-filtro-container .btn-filtro:hover, .botones-filtro-container .btn-filtro.active {
+  background: #F37021;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(243, 112, 33, 0.3);
+}
+.botones-filtro-container .btn-filtro:active {
+  transform: translateY(0);
+}
+
+.tarjeta-producto {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .titulo-catalogo {
   display: block;
   text-align: left;
