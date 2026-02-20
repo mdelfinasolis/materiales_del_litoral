@@ -1,141 +1,152 @@
-Código;Nombre;Medidas;Imagen;Categoría;
-00001;Cerámica Calcáreo Gris;56x56;calcareo_gris.jpeg;lourdes;
-00002;Cerámica Travertino Marfil;56x56;travertino_marfil.jpeg;lourdes;
-00003;Cerámica Carrara Brillante;56x56;carrara_brillante.jpeg;lourdes;
-00004;Cerámica Cotto Gris;56x56;cotto_gris.jpeg;lourdes;
-00005;Cerámica Eucalipto Marrón;56x56;eucalipto_marron.jpeg;lourdes;
-00006;Cerámica Eucalipto Beige;56x56;eucalipto_beige.jpeg;lourdes;
-00007;Cerámica Eucalipto Gris;56x56;eucalipto_gris.jpeg;lourdes;
-00008;Cerámica Castaño Beige;18x56;castaño_beige.jpeg;lourdes;
-00009;Cerámica Madera Fresno;18x56;fresno.jpeg;lourdes;
-00010;Cerámica Yunga Beige;18x56;yunga_beige.jpeg;lourdes;
-00011;Cerámica Acacia Marrón;18x56;acacia_marron.jpeg;lourdes;
-00012;Cerámica Madera Entramada Marrón;35x35;entramada_marron.jpeg;lourdes;
-00013;Cerámica Porfido Marrón;35x35;porfido_marron.jpeg;lourdes;
-00014;Cerámica Cotto Gris;35x35;cotto_gris_chica.jpeg;lourdes;
-00015;Cerámica Cotto Marfil;35x35;cotto_marfil.jpeg;lourdes;
-00016;Cerámica Cotto Terra;35x35;cotto_terra.jpeg;lourdes;
-00017;Cerámica Travertino Plus Gris;35x35;travertino_plus_gris.jpeg;lourdes;
-00018;Cerámica Negro Plus;35x35;negro_plus.jpeg;lourdes;
-00019;Cerámica Raíz de Nogal;35x35;raiz_de_nogal.jpeg;lourdes;
-00020;Revestimiento Castor Gris;35x35;castor_gris.jpeg;lourdes;
-00021;Muro Piedra Petróleo;35x35;piedra_petroleo.jpeg;lourdes;
-00022;Muro Piedra Natural;31x53;piedra_natural.jpeg;lourdes;
-00023;Muro Travertino;31x53;muro_travertino.jpeg;lourdes;
-00024;Revestimiento Nieve Brillante;31x53;nieve_brillante.jpeg;lourdes;
-00025;Revestimiento Subway Blanco;31x53;subway_blanco.jpeg;lourdes;
-00026;Revestimiento Subway Carrara;31x53;subway_carrara.jpeg;lourdes;
-00027;Revestimiento Subway Negro;31x53;subway_negro.jpeg;lourdes;
-00028;Revestimiento Venecita Blanca;31x53;venecita_blanca.jpeg;lourdes;
-00029;Revestimiento Venecita Gris;31x53;venecita_gris.jpeg;lourdes;
-00030;Revestimiento Venecita Terra;31x53;venecita_terra.jpeg;lourdes;
-00031;Revestimiento Carrara Brillante;31x53;rev_carrara_brillante.jpeg;lourdes;
-00032;Revestimiento Cerámica Calipso Gris ;31x53;calipso_gris.jpeg;lourdes;
-00033;Cerámica Madera Lenga Blanca;31x53;lenga_blanca.jpeg;lourdes;
-00034;Cerámica Madera Lenga;31x53;madera_lenga.jpeg;lourdes;
-00035;Cerámica Madera Lenga Gris;31x53;madera_lenga_gris.jpeg;lourdes;
-00036;Cerámica Rev. Montecarlo Blanca ;25x35;montecarlo_blanca.jpeg;lourdes;
-00037;Cerámica Clásica Curado a Fuego;43x43;cuadro_a_fuego.jpeg;salteña;
-00038;Cerámica Clásico Cotto Rojo;43x43;cotto_rojo.jpeg;salteña;
-00039;Ceramica Calacatta Brillante;43x43;calacatta_brillante.jpeg;salteña;
-00040;Ceramica San Antonio Arena;43x43;san_antonio_arena.jpeg;salteña;
-00041;Ceramica Cachi Arena Brillante;43x43;cachi_arena_brillante.jpeg;salteña;
-00042;Ceramica Capri Mix;43x43;capri_mix.jpeg;salteña;
-00043;Cerámica Capri Blú;43x43;capri_blu.jpeg;salteña;
-00044;Cerámica Algarrobo Natural;43x43;algarrobo_natural.jpeg;salteña;
-00045;Cerámica San Luis Beige;43x43;san_luis_beige.jpeg;salteña;
-00046;Cerámica Cuarzo Tiza;36x36;cuarzo_tiza.jpeg;salteña;
-00047;Cerámica Cuarzo Noche;36x36;cuarzo_noche.jpeg;salteña;
-00048;Cerámica Tastil Blanco;36x36;tastil_blanco.jpeg;salteña;
-00049;Cerámica Clásica Curado a Fuego;36x36;cuadro_a_fuego_peq.jpeg;salteña;
-00050;Cerámica Quina Rojiza;36x36;quina_rojiza.jpeg;salteña;
-00051;Porcelanato Patagonico Arena;53x53;patagonico_arena.jpeg;sanPietro;
-00052;Porcelanato Patagonico Mercurio;53x53;patagonico_mercurio.jpeg;sanPietro;
-00053;Porcelanato Pietra Borgoña;53x53;pietra_borgoña.jpeg;sanPietro;
-00054;Porcelanato Verona Gris;53x53;verona_gris.jpeg;sanPietro;
-00055;Porcelanato Ónix Gris;53x53;onix_gris.jpeg;sanPietro;
-00056;Porcelanato Calipso Gris;53x53;porc_calipso_gris.jpeg;sanPietro;
-00057;Porcelanato Calacata Gold;53x53;calacata_gold.jpeg;sanPietro;
-00058;Porcelanato Cemento Gris;53x53;porc_cemento_gris.jpeg;sanPietro;
-00059;Porcelanato Folks Beige;53x53;folks_beige.jpeg;sanPietro;
-00060;Porcelanato Kairo Beige ;53x53;kairo_beige.jpeg;sanPietro;
-00061;Porcelanato Gloria Gris ;53x53;gloria_gris.jpeg;sanPietro;
-00062;Porcelanato Mármol Carrera Brillante;53x53;marmol_carrera_brillante.jpeg;sanPietro;
-00063;Porcelanato Cemento Gris ;80x80;porc_cemento_gris.jpeg;sanPietro;
-00064;Porcelanato Oxido Terra ;80x160;oxido_terra.jpeg;sanPietro;
-00065;Porcelanato Concreto Gris;80x160;concreto_gris.jpeg;sanPietro;
-00066;Porcelanato Madera Vintage;22x160;madera_vintage.jpeg;sanPietro;
-00067;Porcelanato Dakota Marrón;22x160;dakota_marron.jpeg;sanPietro;
-00068;Porcelanato Chalten Ivory;22x160;chalten_ivory.jpeg;sanPietro;
-00069;Cerámica Flower White ;45x45;flower_white.jpeg;sanLorenzo;
-00070;Cerámica Berta Mixtura;45x45;berta_mixtura.jpeg;sanLorenzo;
-00071;Porcelanato Turia Arena;58x58;turia_arena.jpeg;sanLorenzo;
-00072;Porcelanato Cantabria Botánico;58x58;cantabria_botanico.jpeg;sanLorenzo;
-00073;Porcelanato Blau;58x58;porc_blau.jpeg;sanLorenzo;
-00074;Porcelanato Clover Antideslizante;58x58;clover_antideslizante.jpeg;sanLorenzo;
-00075;Porcelanato Terraferma Arena;58x58;terraferma_arena.jpeg;sanLorenzo;
-00076;Tendenza Fossil Porcelanato;58x58;fossil_porcelanato.jpeg;sanLorenzo;
-00077;Embramaco Savana Brasilero;58x58;savana_brasilero.jpeg;sanLorenzo;
-00078;Cerámica Scop Lutecia;45,3x45,3;scop_lutecia.jpeg;sanLorenzo;
-00079;Cerámica Scop Adoquín;45,3x45x3;scop_adoquin.jpeg;sanLorenzo;
-00080;Porcelanato Taco Cantabria;58x58;taco_cantabria.jpeg;sanLorenzo;
-00081;Mendoza Pulido Rectificado;62x62;pulido_rectificado.jpeg;importados;ELIZABETH
-00082;Criciuma Madera Rect;19,7x120;madera_rect.jpeg;importados;ELIZABETH
-00083;Concret Pulido Rectificado;60x60;concret_pulido.jpeg;importados;ELIZABETH
-00084;Portoro;62,5x125;portoro.jpeg;importados;ELIZABETH
-00085;Statutario Venato;62x125;venato.jpeg;importados;ELIZABETH
-00086;Zement Offwhite Acetinado Rect;62,5x62,5;offwhite_acetinado.jpeg;importados;ELIZABETH
-00087;Palladium Cinza Rect. Exterior;74x74;cinza_exterior.jpeg;importados;RCR
-00088;Detroit Rect. Exterior;74x74;detroit_exterior.jpeg;importados;RCR
-00089;Bosco Grigio;19x115;bosco_grigio.jpeg;importados;RCR
-00090;Metropole Rect;74x74;metropole_rect.jpeg;importados;RCR
-00091;Eco Chic Rectificado ;19x115;chic_rectificado.jpeg;importados;SAVANE
-00092;Legno Corten Rectificado;19x115;corten_rectificado.jpeg;importados;SAVANE
-00093;Ferruccio Rectificado;74x74;ferruccio_rectificado.jpeg;importados;SAVANE
-00094;Terrazo Grafite Rectificado;74x74;terrazo_grafite.jpeg;importados;SAVANE
-00095;Vis;10x10;vis.jpeg;importados;STRUFALDI
-00096;Malawi;10x10;malawi.jpeg;importados;STRUFALDI
-00097;Palau Rústico;10x10;palau_rustico.jpeg;importados;STRUFALDI
-00098;Samoa Rústico ;10x10;samoa_rustico.jpeg;importados;STRUFALDI
-00099;Portland;10x10;portland.jpeg;importados;STRUFALDI
-00100;Black;10x10;black.jpeg;importados;STRUFALDI
-00101;Black Mate;10x10;black_mate.jpeg;importados;STRUFALDI
-00102;White;10x10;white.jpeg;importados;STRUFALDI
-00103;White;10x20;white_g.jpeg;importados;STRUFALDI
-00104;Snow;10x20;snow.jpeg;importados;STRUFALDI
-00105;Black;10x20;black_g.jpeg;importados;STRUFALDI
-00106;Piso Black Mate;20x20;piso_black_mate.jpeg;importados;STRUFALDI
-00107;White;20x20;white_strufaldi.jpeg;importados;STRUFALDI
-00108;Gelo;20x20;gelo.jpeg;importados;STRUFALDI
-00109;Firenze Bright ;6x24;firenze_bright.jpeg;importados;STRUFALDI
-00110;Firenze;6x24;firenze.jpeg;importados;STRUFALDI
-00111;Jade;6x24;jade.jpeg;importados;STRUFALDI
-00112;Vivace San Remo;6x24;vivace_san_remo.jpeg;importados;STRUFALDI
-00113;Ceniza ;6x24;ceniza.jpeg;importados;STRUFALDI
-00114;Vivace Miseno;6x24;vivace_miseno.jpeg;importados;STRUFALDI
-00115;Palau Bright;6x24;palau_bright.jpeg;importados;STRUFALDI
-00116;Samoa Bright;6x24;samoa_bright.jpeg;importados;STRUFALDI
-00117;Rossa Bright;6x24;rossa_bright.jpeg;importados;STRUFALDI
-00118;Arancione Bright ;6x24;arancione_bright.jpeg;importados;STRUFALDI
-00119;Sottile Caletta;6x24;sottile_caletta.jpeg;importados;STRUFALDI
-00120;Ibiza Azul ;32x47;ibiza_azul.jpeg;importados;CAÑUELAS
-00121;Botticino Gris ;50x50;botticino_gris.jpeg;importados;CAÑUELAS
-00122;Riminni Tiza;50x50;riminni_tiza.jpeg;importados;CAÑUELAS
-00123;Napoles Gris;50x50;napoles_gris.jpeg;importados;CAÑUELAS
-00124;Varese Gris ;61,5x61,5;varese_gris.jpeg;importados;CAÑUELAS
-00125;Varese Tiza;61,5x61,5;varese_tiza.jpeg;importados;CAÑUELAS
-00126;Levante Beige ;61,5x61,5;levante_beige.jpeg;importados;CAÑUELAS
-00127;Monza Rectificado;62x20;monza.jpeg;importados;CAÑUELAS
-00128;Cartagena Grafito Rectificado;32x47;cartagena_grafito.jpeg;importados;CAÑUELAS
-00129;Macerata Rectificado;62x20;macerata.jpeg;importados;CAÑUELAS
-00130;Vicenza Rectificado;62x20;vicenza.jpeg;importados;CAÑUELAS
-00131;Udine Rectificado;62x20;udine.jpeg;importados;CAÑUELAS
-00132;Alessandria Rectificado ;62x20;alessandria.jpeg;importados;CAÑUELAS
-00133;Polaris Mate;45x90;polaris_mate.jpeg;importados;POINTER
-00134;E Motion Wood;60x120;motion_wood.jpeg;importados;POINTER
-00135;Mont Blanc Lux;63X122;mont_blanc.jpeg;importados;EMBRAMACO
-00136;Marmo Patagonia Lux;85x85;marmo_patagonia.jpeg;importados;EMBRAMACO
-00137;Travertino Navona ;63x122;travertino_navona.jpeg;importados;EMBRAMACO
-00138;Concret Gray ;68x68;concret_gray.jpeg;importados;RAFINATTO
-00139;Indiana Plus;28x118;indiana_plus.jpeg;importados;RAFINATTO
-00140;Black Mate ;10x20;black_g.jpeg;importados;STRUFALDI
+Código;Nombre;Medidas;Imagen;Categoría;;
+00001;Cerámica Calcáreo Gris;56x56;calcareo_gris.jpeg;lourdes;;
+00002;Cerámica Travertino Marfil;56x56;travertino_marfil.jpeg;lourdes;;
+00003;Cerámica Carrara Brillante;56x56;carrara_brillante.jpeg;lourdes;;
+00004;Cerámica Cotto Gris;56x56;cotto_gris.jpeg;lourdes;;
+00005;Cerámica Eucalipto Marrón;56x56;eucalipto_marron.jpeg;lourdes;;
+00006;Cerámica Eucalipto Beige;56x56;eucalipto_beige.jpeg;lourdes;;
+00007;Cerámica Eucalipto Gris;56x56;eucalipto_gris.jpeg;lourdes;;
+00008;Cerámica Castaño Beige;18x56;castaño_beige.jpeg;lourdes;;
+00009;Cerámica Madera Fresno;18x56;fresno.jpeg;lourdes;;
+00010;Cerámica Yunga Beige;18x56;yunga_beige.jpeg;lourdes;;
+00011;Cerámica Acacia Marrón;18x56;acacia_marron.jpeg;lourdes;;
+00012;Cerámica Madera Entramada Marrón;35x35;entramada_marron.jpeg;lourdes;;
+00013;Cerámica Porfido Marrón;35x35;porfido_marron.jpeg;lourdes;;
+00014;Cerámica Cotto Gris;35x35;cotto_gris_chica.jpeg;lourdes;;
+00015;Cerámica Cotto Marfil;35x35;cotto_marfil.jpeg;lourdes;;
+00016;Cerámica Cotto Terra;35x35;cotto_terra.jpeg;lourdes;;
+00017;Cerámica Travertino Plus Gris;35x35;travertino_plus_gris.jpeg;lourdes;;
+00018;Cerámica Negro Plus;35x35;negro_plus.jpeg;lourdes;;
+00019;Cerámica Raíz de Nogal;35x35;raiz_de_nogal.jpeg;lourdes;;
+00020;Revestimiento Castor Gris;35x35;castor_gris.jpeg;lourdes;;
+00021;Muro Piedra Petróleo;35x35;piedra_petroleo.jpeg;lourdes;;
+00022;Muro Piedra Natural;31x53;piedra_natural.jpeg;lourdes;;
+00023;Muro Travertino;31x53;muro_travertino.jpeg;lourdes;;
+00024;Revestimiento Nieve Brillante;31x53;nieve_brillante.jpeg;lourdes;;
+00025;Revestimiento Subway Blanco;31x53;subway_blanco.jpeg;lourdes;;
+00026;Revestimiento Subway Carrara;31x53;subway_carrara.jpeg;lourdes;;
+00027;Revestimiento Subway Negro;31x53;subway_negro.jpeg;lourdes;;
+00028;Revestimiento Venecita Blanca;31x53;venecita_blanca.jpeg;lourdes;;
+00029;Revestimiento Venecita Gris;31x53;venecita_gris.jpeg;lourdes;;
+00030;Revestimiento Venecita Terra;31x53;venecita_terra.jpeg;lourdes;;
+00031;Revestimiento Carrara Brillante;31x53;rev_carrara_brillante.jpeg;lourdes;;
+00032;Revestimiento Cerámica Calipso Gris ;31x53;calipso_gris.jpeg;lourdes;;
+00033;Cerámica Madera Lenga Blanca;31x53;lenga_blanca.jpeg;lourdes;;
+00034;Cerámica Madera Lenga;31x53;madera_lenga.jpeg;lourdes;;
+00035;Cerámica Madera Lenga Gris;31x53;madera_lenga_gris.jpeg;lourdes;;
+00036;Cerámica Rev. Montecarlo Blanca ;25x35;montecarlo_blanca.jpeg;lourdes;;
+00037;Cerámica Clásica Curado a Fuego;43x43;cuadro_a_fuego.jpeg;salteña;;
+00038;Cerámica Clásico Cotto Rojo;43x43;cotto_rojo.jpeg;salteña;;
+00039;Ceramica Calacatta Brillante;43x43;calacatta_brillante.jpeg;salteña;;
+00040;Ceramica San Antonio Arena;43x43;san_antonio_arena.jpeg;salteña;;
+00041;Ceramica Cachi Arena Brillante;43x43;cachi_arena_brillante.jpeg;salteña;;
+00042;Ceramica Capri Mix;43x43;capri_mix.jpeg;salteña;;
+00043;Cerámica Capri Blú;43x43;capri_blu.jpeg;salteña;;
+00044;Cerámica Algarrobo Natural;43x43;algarrobo_natural.jpeg;salteña;;
+00045;Cerámica San Luis Beige;43x43;san_luis_beige.jpeg;salteña;;
+00046;Cerámica Cuarzo Tiza;36x36;cuarzo_tiza.jpeg;salteña;;
+00047;Cerámica Cuarzo Noche;36x36;cuarzo_noche.jpeg;salteña;;
+00048;Cerámica Tastil Blanco;36x36;tastil_blanco.jpeg;salteña;;
+00049;Cerámica Clásica Curado a Fuego;36x36;cuadro_a_fuego_peq.jpeg;salteña;;
+00050;Cerámica Quina Rojiza;36x36;quina_rojiza.jpeg;salteña;;
+00051;Cerro Negro Aspen Brillante;29x59;aspen_brillante.jpeg;salteña;;
+00052;Abra Tiza;43x43;abra_tiza.jpeg;salteña;;
+00053;Cebil Natural;43x43;cebil_natural.jpeg;salteña;;
+00054;Guachipas Terra;43x43;guachipas_terra.jpeg;salteña;;
+00055;Los Toldos Azul;43x43;toldos_azul.jpeg;salteña;;
+00056;Zenta Cemento;43x43;zenta_cemento.jpeg;salteña;;
+00057;Zenta Arena;43x43;zenta_arena.jpeg;salteña;;
+00058;Chañi Blanco;43x43;chañi_blanco.jpeg;salteña;;
+00059;Chañi Negro;43x43;chañi_negro.jpeg;salteña;;
+00060;Bali Azul;43x43;bali_azul.jpeg;salteña;;
+00061;Urundel Beige;43x43;urundel_beige.jpeg;salteña;;
+00062;Porcelanato Patagonico Arena;53x53;patagonico_arena.jpeg;sanpietro;;
+00063;Porcelanato Patagonico Mercurio;53x53;patagonico_mercurio.jpeg;sanpietro;;
+00064;Porcelanato Pietra Borgoña;53x53;pietra_borgoña.jpeg;sanpietro;;
+00065;Porcelanato Verona Gris;53x53;verona_+D61gris.jpeg;sanpietro;;
+00066;Porcelanato Ónix Gris;53x53;onix_gris.jpeg;sanpietro;;
+00067;Porcelanato Calipso Gris;53x53;porc_calipso_gris.jpeg;sanpietro;;
+00068;Porcelanato Calacata Gold;53x53;calacata_gold.jpeg;sanpietro;;
+00069;Porcelanato Cemento Gris;53x53;porc_cemento_gris.jpeg;sanpietro;;
+00070;Porcelanato Folks Beige;53x53;folks_beige.jpeg;sanpietro;;
+00071;Porcelanato Kairo Beige ;53x53;kairo_beige.jpeg;sanpietro;;
+00072;Porcelanato Gloria Gris ;53x53;gloria_gris.jpeg;sanpietro;;
+00073;Porcelanato Mármol Carrera Brillante;53x53;marmol_carrera_brillante.jpeg;sanpietro;;
+00074;Porcelanato Cemento Gris ;80x80;porc_cemento_gris.jpeg;sanpietro;;
+00075;Porcelanato Oxido Terra ;80x160;oxido_terra.jpeg;sanpietro;;
+00076;Porcelanato Concreto Gris;80x160;concreto_gris.jpeg;sanpietro;;
+00077;Porcelanato Madera Vintage;22x160;madera_vintage.jpeg;sanpietro;;
+00078;Porcelanato Dakota Marrón;22x160;dakota_marron.jpeg;sanpietro;;
+00079;Porcelanato Chalten Ivory;22x160;chalten_ivory.jpeg;sanpietro;;
+00080;Cerámica Flower White ;45x45;flower_white.jpeg;sanlorenzo;;
+00081;Cerámica Berta Mixtura;45x45;berta_mixtura.jpeg;sanlorenzo;;
+00082;Porcelanato Turia Arena;58x58;turia_arena.jpeg;sanlorenzo;;
+00083;Porcelanato Cantabria Botánico;58x58;cantabria_botanico.jpeg;sanlorenzo;;
+00084;Porcelanato Blau;58x58;porc_blau.jpeg;sanlorenzo;;
+00085;Porcelanato Clover Antideslizante;58x58;clover_antideslizante.jpeg;sanlorenzo;;
+00086;Porcelanato Terraferma Arena;58x58;terraferma_arena.jpeg;sanlorenzo;;
+00087;Tendenza Fossil Porcelanato;58x58;fossil_porcelanato.jpeg;sanlorenzo;;
+00088;Embramaco Savana Brasilero;58x58;savana_brasilero.jpeg;sanlorenzo;;
+00089;Cerámica Scop Lutecia;45,3x45,3;scop_lutecia.jpeg;sanlorenzo;;
+00090;Cerámica Scop Adoquín;45,3x45x3;scop_adoquin.jpeg;sanlorenzo;;
+00091;Porcelanato Taco Cantabria;58x58;taco_cantabria.jpeg;sanlorenzo;;
+00092;Mendoza Pulido Rectificado;62x62;pulido_rectificado.jpeg;importados;ELIZABETH;
+00093;Criciuma Madera Rect;19,7x120;madera_rect.jpeg;importados;ELIZABETH;
+00094;Concret Pulido Rectificado;60x60;concret_pulido.jpeg;importados;ELIZABETH;
+00095;Portoro;62,5x125;portoro.jpeg;importados;ELIZABETH;
+00096;Statutario Venato;62x125;venato.jpeg;importados;ELIZABETH;
+00097;Zement Offwhite Acetinado Rect;62,5x62,5;offwhite_acetinado.jpeg;importados;ELIZABETH;
+00098;Palladium Cinza Rect. Exterior;74x74;cinza_exterior.jpeg;importados;RCR;
+00099;Detroit Rect. Exterior;74x74;detroit_exterior.jpeg;importados;RCR;
+00100;Bosco Grigio;19x115;bosco_grigio.jpeg;importados;RCR;
+00101;Metropole Rect;74x74;metropole_rect.jpeg;importados;RCR;
+00102;Eco Chic Rectificado ;19x115;chic_rectificado.jpeg;importados;SAVANE;
+00103;Legno Corten Rectificado;19x115;corten_rectificado.jpeg;importados;SAVANE;
+00104;Ferruccio Rectificado;74x74;ferruccio_rectificado.jpeg;importados;SAVANE;
+00105;Terrazo Grafite Rectificado;74x74;terrazo_grafite.jpeg;importados;SAVANE;
+00106;Vis;10x10;vis.jpeg;importados;STRUFALDI;
+00107;Malawi;10x10;malawi.jpeg;importados;STRUFALDI;
+00108;Palau Rústico;10x10;palau_rustico.jpeg;importados;STRUFALDI;
+00109;Samoa Rústico ;10x10;samoa_rustico.jpeg;importados;STRUFALDI;
+00110;Portland;10x10;portland.jpeg;importados;STRUFALDI;
+00111;Black;10x10;black.jpeg;importados;STRUFALDI;
+00112;Black Mate;10x10;black_mate.jpeg;importados;STRUFALDI;
+00113;White;10x10;white.jpeg;importados;STRUFALDI;
+00114;White;10x20;white_g.jpeg;importados;STRUFALDI;
+00115;Snow;10x20;snow.jpeg;importados;STRUFALDI;
+00116;Black;10x20;black_g.jpeg;importados;STRUFALDI;
+00117;Piso Black Mate;20x20;piso_black_mate.jpeg;importados;STRUFALDI;
+00118;White;20x20;white_strufaldi.jpeg;importados;STRUFALDI;
+00119;Gelo;20x20;gelo.jpeg;importados;STRUFALDI;
+00120;Firenze Bright ;6x24;firenze_bright.jpeg;importados;STRUFALDI;
+00121;Firenze;6x24;firenze.jpeg;importados;STRUFALDI;
+00122;Jade;6x24;jade.jpeg;importados;STRUFALDI;
+00123;Vivace San Remo;6x24;vivace_san_remo.jpeg;importados;STRUFALDI;
+00124;Ceniza ;6x24;ceniza.jpeg;importados;STRUFALDI;
+00125;Vivace Miseno;6x24;vivace_miseno.jpeg;importados;STRUFALDI;
+00126;Palau Bright;6x24;palau_bright.jpeg;importados;STRUFALDI;
+00127;Samoa Bright;6x24;samoa_bright.jpeg;importados;STRUFALDI;
+00128;Rossa Bright;6x24;rossa_bright.jpeg;importados;STRUFALDI;
+00129;Arancione Bright ;6x24;arancione_bright.jpeg;importados;STRUFALDI;
+00130;Sottile Caletta;6x24;sottile_caletta.jpeg;importados;STRUFALDI;
+00131;Ibiza Azul ;32x47;ibiza_azul.jpeg;importados;CAÑUELAS;
+00132;Botticino Gris ;50x50;botticino_gris.jpeg;importados;CAÑUELAS;
+00133;Riminni Tiza;50x50;riminni_tiza.jpeg;importados;CAÑUELAS;
+00134;Napoles Gris;50x50;napoles_gris.jpeg;importados;CAÑUELAS;
+00135;Varese Gris ;61,5x61,5;varese_gris.jpeg;importados;CAÑUELAS;
+00136;Varese Tiza;61,5x61,5;varese_tiza.jpeg;importados;CAÑUELAS;
+00137;Levante Beige ;61,5x61,5;levante_beige.jpeg;importados;CAÑUELAS;
+00138;Monza Rectificado;62x20;monza.jpeg;importados;CAÑUELAS;
+00139;Cartagena Grafito Rectificado;32x47;cartagena_grafito.jpeg;importados;CAÑUELAS;
+00140;Macerata Rectificado;62x20;macerata.jpeg;importados;CAÑUELAS;
+00141;Vicenza Rectificado;62x20;vicenza.jpeg;importados;CAÑUELAS;
+00142;Udine Rectificado;62x20;udine.jpeg;importados;CAÑUELAS;
+00143;Alessandria Rectificado ;62x20;alessandria.jpeg;importados;CAÑUELAS;
+00144;Polaris Mate;45x90;polaris_mate.jpeg;importados;POINTER;
+00145;E Motion Wood;60x120;motion_wood.jpeg;importados;POINTER;
+00146;Mont Blanc Lux;63X122;mont_blanc.jpeg;importados;EMBRAMACO;
+00147;Marmo Patagonia Lux;85x85;marmo_patagonia.jpeg;importados;EMBRAMACO;
+00148;Travertino Navona ;63x122;travertino_navona.jpeg;importados;EMBRAMACO;
+00149;Concret Gray ;68x68;concret_gray.jpeg;importados;RAFINATTO;
+00150;Indiana Plus;28x118;indiana_plus.jpeg;importados;RAFINATTO;
+00151;Black Mate ;10x20;black_g.jpeg;importados;STRUFALDI;
