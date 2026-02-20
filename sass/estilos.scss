@@ -5,11 +5,30 @@
 @use 'main';
 @use 'footer';
 
-#contenedor-productos {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 25px;
-    padding: 20px;
+.titulo-catalogo {
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1200px;
-    margin: 0 auto;
+    padding-left: 20px; 
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+    
+    font-size: 2.5rem;
+    color: variables.$naranja;
+    text-transform: capitalize;
+    border-bottom: 2px solid variables.$naranja;
+    width: fit-content;
+}
+
+.aclaracion-medidas {
+    text-align: left;
+    margin-left: 60px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-family: variables.$fuente;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
 }

@@ -48,3 +48,38 @@ body {
         font-size: 30px;
     }
 }
+
+#contenedor-productos {
+    display: grid;
+    gap: 25px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr; 
+        padding: 15px;
+        gap: 20px;
+    }
+}
+
+.grid-catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px 60px 60px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
+
+.titulo, .titulo-catalogo, .aclaracion-medidas {
+    margin-left: 60px;
+
+    @media (max-width: 768px) {
+        margin-left: 20px;
+    }
+}

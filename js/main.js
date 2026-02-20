@@ -1,13 +1,30 @@
 // 1. Referencias al HTML
 const contenedor = document.getElementById('contenedor-productos');
-const tituloSeccion = document.querySelector('.titulo'); 
+const tituloSeccion = document.getElementById('titulo-dinamico'); 
 
-// 2. Capturar la categoría de la URL (ej: ?categoria=Lourdes)
+// 2. Capturar la categoría de la URL (ej: ?categoria=sanpietro)
 const urlParams = new URLSearchParams(window.location.search);
 const categoriaSeleccionada = urlParams.get('categoria');
 
 async function cargarCatalogo() {
     try {
+        if (tituloSeccion) {
+            if (categoriaSeleccionada) {
+                const nombresMarcas = {
+                    'sanpietro': 'San Pietro',
+                    'sanlorenzo': 'San Lorenzo',
+                    'lourdes': 'Lourdes',
+                    'salteña': 'Salteña',
+                    'importados': 'Importados'
+                };
+                const nombreLindo = nombresMarcas[categoriaSeleccionada.toLowerCase()] || 
+                    (categoriaSeleccionada.charAt(0).toUpperCase() + categoriaSeleccionada.slice(1));
+                tituloSeccion.textContent = `Colección ${nombreLindo}`;
+            } else {
+                tituloSeccion.textContent = "Nuestro Catálogo";
+            }
+        }
+
         // 3. Cargar el archivo con soporte para acentos
         const respuesta = await fetch('base_de_datos.csv');
         const buffer = await respuesta.arrayBuffer();
@@ -16,11 +33,6 @@ async function cargarCatalogo() {
 
         // 4. Dividir por líneas
         const lineas = contenido.split(/\r?\n/);
-        
-        // Actualizar el título dinámicamente
-        if (categoriaSeleccionada && tituloSeccion) {
-            tituloSeccion.textContent = `Catálogo: ${categoriaSeleccionada}`;
-        }
 
         for (let i = 1; i < lineas.length; i++) {
             const linea = lineas[i].trim();
@@ -35,14 +47,12 @@ async function cargarCatalogo() {
                     nombre:    fila[1].trim(),
                     medidas:   fila[2].trim(),
                     imagen:    fila[3].trim(),
-                    categoria: fila[4].trim() // Aquí está la clave del filtro
+                    categoria: fila[4].trim() 
                 };
 
                 // 6. LÓGICA DE FILTRADO ESTRICTA
-                // Si no hay categoría en la URL, muestra todo.
-                // Si hay categoría, comparamos ignorando mayúsculas/minúsculas.
                 const coincideFiltro = !categoriaSeleccionada || 
-                                     producto.categoria.toLowerCase() === categoriaSeleccionada.toLowerCase();
+                    producto.categoria.toLowerCase() === categoriaSeleccionada.toLowerCase();
 
                 if (coincideFiltro) {
                     renderizarTarjeta(producto);
@@ -58,10 +68,8 @@ function renderizarTarjeta(prod) {
     const tarjeta = document.createElement('div');
     tarjeta.classList.add('tarjeta-producto');
 
-    // CONSTRUCCIÓN DE RUTA DINÁMICA:
-    // Forzamos la carpeta de la categoría a minúsculas para GitHub (ej: img/lourdes/foto.jpg)
-    const carpetaMarca = prod.categoria.toLowerCase();
-    const rutaImagen = `img/${carpetaMarca}/${prod.imagen}`;
+    const carpetaMarca = prod.categoria.toLowerCase().trim();
+    const rutaImagen = `img/${carpetaMarca}/${prod.imagen.trim()}`;
 
     tarjeta.innerHTML = `
         <img src="${rutaImagen}" alt="${prod.nombre}" onerror="this.src='img/placeholder.jpg'">

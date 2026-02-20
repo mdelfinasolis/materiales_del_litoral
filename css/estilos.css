@@ -129,28 +129,70 @@ body {
     font-size: 30px;
   }
 }
-.titulo {
-  color: #F37021;
-  font-size: 40px;
-  font-weight: bold;
-  margin: 40px 0;
-  margin-left: 40px;
+#contenedor-productos {
+  display: grid;
+  gap: 25px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
-.titulo::after {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 4px;
-  background: #F37021;
-  margin-top: 10px;
+@media (max-width: 768px) {
+  #contenedor-productos {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 20px;
+  }
 }
 
 .grid-catalogo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  padding: 60px;
+  padding: 20px 60px 60px;
+}
+@media (max-width: 768px) {
+  .grid-catalogo {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+}
+
+.titulo, .titulo-catalogo, .aclaracion-medidas {
+  margin-left: 60px;
+}
+@media (max-width: 768px) {
+  .titulo, .titulo-catalogo, .aclaracion-medidas {
+    margin-left: 20px;
+  }
+}
+
+.titulo {
+  display: block;
+  text-align: left;
+  margin-left: 60px;
+  padding-top: 140px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #F37021;
+  width: 14rem;
+  border-bottom: 3px solid #F37021;
+}
+
+.grid-catalogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px 60px 60px;
   background-color: #F8F9FA;
+}
+@media (max-width: 768px) {
+  .grid-catalogo {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
 }
 
 .card {
@@ -238,13 +280,31 @@ body {
     font-size: 0.9rem;
   }
 }
-#contenedor-productos {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 25px;
-  padding: 20px;
+.titulo-catalogo {
+  display: block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1200px;
-  margin: 0 auto;
+  padding-left: 20px;
+  margin-top: 12rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #F37021;
+  text-transform: capitalize;
+  border-bottom: 2px solid #F37021;
+  width: fit-content;
+}
+
+.aclaracion-medidas {
+  text-align: left;
+  margin-left: 60px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=estilos.css.map */
